@@ -108,13 +108,29 @@ date        | city       | track  | channel | participants | completed | satisfa
 **Required final prompt structure**
 
 ```
-Role: Streamlit dashboard developer
-Goal: build an interactive dashboard for ...
-Data columns: ...
-Required charts: ...
-Required filters: ...
-Layout: sidebar + tabs + columns
-Output: complete executable app.py
+<master_system_directive>
+<role>You are a Senior Streamlit Developer and Data Visualization Architect.</role>
+<task>
+Build an executive operations intelligence dashboard for technical training programs 
+in Egypt across 8 major metropolitan centers (Cairo, Giza, Alexandria, Aswan, Mansoura, 
+Assiut, Tanta, Luxor) spanning Q4 2026.
+</task>
+
+<requirements>
+1. Architecture: Strictly 5 core tabs (Overview, Temporal Trends, Geographic Footprint, Data Explorer, Assistant).
+2. Data Layer: Generate a deterministic 60-row dataset with real coordinates, tracks (AI, Data, Coding), and financial metrics.
+3. Visualization Stack:
+   - KPI metric delta cards normalized against per-session global averages.
+   - Plotly donut and grouped bar charts.
+   - Declarative Altair chart with interactive hover dimming (Enrolled vs. Completed).
+   - Folium geospatial map with CircleMarker radius proportional to headcount.
+4. Controls: Sidebar filters for Date Range, Multiselects (City, Track, Channel), and a Satisfaction threshold slider.
+5. Invariants:
+   - st.set_page_config must be the very first Streamlit call.
+   - The entire UI must be in 100% professional English.
+   - Zero-division defensive guards across all mathematical calculations.
+</requirements>
+</master_system_directive>
 ```
 
 > AI can help generate code, but the final app must be tested, cleaned, and explained by the student.

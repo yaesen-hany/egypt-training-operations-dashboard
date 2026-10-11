@@ -136,17 +136,6 @@ Output: complete executable app.py
 - [ ] `app.py` file
 - [ ] Dataset file or generated dataset code
 
-
-## 6. Final Reflection
-
-Answer briefly:
-
-1. Which visualization best explains the data?
-2. What issue did AI create or solve?
-3. How did you verify the dashboard output?
-
----
-
 ## Submission Checklist
 
 ### Technical

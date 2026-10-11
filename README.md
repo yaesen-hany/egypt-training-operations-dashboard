@@ -26,7 +26,7 @@ Build an interactive Streamlit dashboard using charts, maps, filters, and an AI-
 | `satisfaction_score` | Participant satisfaction |
 | `cost`, `revenue` | Financial values |
 
-**Submission:** one Streamlit `.py` file + screenshots + AI prompt/refinement log.
+**Submission:** one Streamlit `.py` file .
 
 ---
 
@@ -105,16 +105,6 @@ date        | city       | track  | channel | participants | completed | satisfa
 
 ---
 
-## 4. AI-Assisted / Vibe Coding Requirement
-
-You must submit an **AI iteration log** containing:
-
-1. Initial prompt describing the dashboard goal and data fields
-2. Generated code or a summary of the generated structure
-3. Observed issue after running the app
-4. Feedback prompt used to improve the result
-5. Final changes you accepted, rejected, or edited manually
-
 **Required final prompt structure**
 
 ```
@@ -131,7 +121,7 @@ Output: complete executable app.py
 
 ---
 
-## 5. Deliverables
+## 4. Deliverables
 
 - [ ] `app.py` file
 - [ ] Dataset file or generated dataset code

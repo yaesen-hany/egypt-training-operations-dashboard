@@ -1,7 +1,7 @@
 # Insight Dashboard Builder
 
 **Samsung Innovation Campus — Chapter 8: Streamlit, Data Visualization & AI-Assisted Dashboard Building**
-**Day 2 · Units 41–42**
+** Units 41–42**
 
 Build an interactive Streamlit dashboard using charts, maps, filters, and an AI-assisted iteration log.
 

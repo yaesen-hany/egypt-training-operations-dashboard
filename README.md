@@ -243,10 +243,9 @@ Output the entire, executable `app.py` inside a single Python code block.
 - [ ] Tabs and columns used properly
 - [ ] Session State or cache used meaningfully
 - [ ] No broken chart when filter output is small
-- [ ] AI prompt log is attached
+- [ ] AI prompt
 - [ ] README includes run command
-- [ ] Screenshots are attached
-- [ ] Final reflection answered
+
 
 ---
 
